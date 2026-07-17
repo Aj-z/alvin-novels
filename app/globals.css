@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-serif), Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-display: var(--font-display), Georgia, serif;
+  
+  --color-brand-beige-50: #fbfbf8;
+  --color-brand-beige-100: #faf7f2;
+  --color-brand-beige-200: #f5efe6;
+  --color-brand-beige-300: #e8dfd0;
+  --color-brand-green-500: #2d5a27;
+  --color-brand-green-600: #23461e;
+  --color-brand-green-700: #1a3416;
+  --color-brand-brown-900: #2c1810;
+}
+
+:root {
+  --primary: #2d5a27; 
+  --bg: #faf7f2; 
+  --bg-card: #ffffff;
+  --text: #2c1810; 
+  --text-light: #5a4a3a; 
+  --border: #dfcca7;
+}
+
+* { 
+  box-sizing: border-box; 
+}
+
+body { 
+  font-family: var(--font-sans);
+  background: var(--bg); 
+  color: var(--text); 
+  line-height: 1.6; 
+}
+
+/* Custom gorgeous scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fbfbf8;
+}
+::-webkit-scrollbar-thumb {
+  background: #dfcca7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5b28c;
+}
+
+.reader-content { 
+  max-width: 680px; 
+  margin: 0 auto; 
+  padding: 3rem 1.5rem; 
+  font-size: 1.15rem; 
+  line-height: 1.85; 
+}
+
+.drop-cap::first-letter { 
+  font-size: 4.5rem; 
+  float: left; 
+  line-height: .8; 
+  padding-right: .5rem; 
+  padding-top: .2rem; 
+  color: var(--primary); 
+  font-weight: bold; 
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+@media(max-width:768px) {
+  .reader-content { font-size: 1rem; padding: 2rem 1rem; }
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "AlvinLoria Novels Platform",
+  "description": "A beautiful, premium, free, and scalable reading platform for web novels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
