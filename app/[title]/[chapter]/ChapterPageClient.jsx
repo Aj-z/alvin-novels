@@ -355,7 +355,7 @@ export default function ChapterPageClient({ novel, chapter }) {
 
           {/* Support Author Panel */}
           <div className="text-center mt-12 p-8 rounded-2xl border transition-all" style={{ backgroundColor: 'var(--theme-surface)', borderColor: 'var(--theme-border)' }}>
-            <h4 className="text-lg font-serif font-bold mb-2">✨ Enjoying Elara's journey?</h4>
+            <h4 className="text-lg font-serif font-bold mb-2">✨ Enjoying Elara&apos;s journey?</h4>
             <p className="text-sm opacity-80 mb-6 max-w-md mx-auto">
               This novel platform runs entirely on free tier services to scale sustainably. Consider supporting Alvin Loria to keep the chapters coming!
             </p>
@@ -389,7 +389,7 @@ export default function ChapterPageClient({ novel, chapter }) {
           <div className="flex items-center gap-3">
             <span className="text-[9px] font-mono tracking-widest text-white px-1.5 py-0.5 rounded bg-amber-600 font-bold">SPONSOR</span>
             <p className="text-xs truncate max-w-[200px] sm:max-w-md font-serif italic" style={{ color: 'var(--theme-text-secondary)' }}>
-              Looking for your next read? Browse other titles in Alvin Loria's premium catalog!
+              Looking for your next read? Browse other titles in Alvin Loria&apos;s premium catalog!
             </p>
           </div>
           <div className="flex items-center gap-4">

@@ -166,7 +166,7 @@ export default async function NovelPage(props) {
       {/* Author Support Banner */}
       <section className="max-w-4xl mx-auto px-6 mt-12">
         <div className="p-8 rounded-2xl text-center border bg-white" style={{ borderColor: '#dfcca7' }}>
-          <h3 className="text-xl font-serif font-bold mb-2">Want to support Alvin Loria's works?</h3>
+          <h3 className="text-xl font-serif font-bold mb-2">Want to support Alvin Loria&apos;s works?</h3>
           <p className="text-sm opacity-85 mb-4 max-w-lg mx-auto font-serif">
             Show some love by liking the stories, recommending titles to friends, or subscribing to our author platform memberships!
           </p>
